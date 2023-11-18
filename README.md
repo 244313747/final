@@ -1,8 +1,13 @@
 # AromaHarmonics - Perfume description text to music, music to image
-1. Introduction
-Project Overview: Start with a brief introduction to your project. What is "Text-to-Music-to-Image"? What are its objectives?
-Inspiration: Share what inspired you to embark on this project. Was it a gap in the current technology, a personal interest, or a course requirement?
-2. Data Collection
+
+## 1. Introduction
+### Project Overview:
+That is a 'Text-to-Music-to-Image' project, that capturing perfume data especially the description of each perfume, and the use the description as the promots to generate sound and image. Designed to make the fragrance of a perfume palpable through sight and sound when buying perfume online.
+
+### Inspiration:
+Share what inspired you to embark on this project. Was it a gap in the current technology, a personal interest, or a course requirement?
+
+## 2. Data Collection
 Process Overview: Describe how you collected the perfume data. What sources did you use? What kind of data did you collect (brand, fragrance notes, descriptions)?
 Challenges: Did you face any challenges in data collection? How did you overcome them?
 3. Music Generation

@@ -213,7 +213,7 @@ To enhance user experience, I've experimented with modifying the layout of the w
 - [Dataset](https://github.com/244313747/final/blob/06e0a69e050d9227b27b773e1630e92f559623f5/data/nosetime.xlsx)
 
 ## 9. Reference
-`````
+`````Markdown
 @article{copet2023simple,
     title={Simple and Controllable Music Generation},
     author={Jade Copet and Felix Kreuk and Itai Gat and Tal Remez and David Kant and Gabriel Synnaeve and Yossi Adi and Alexandre Défossez},

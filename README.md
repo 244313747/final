@@ -28,8 +28,39 @@ In addition, the script collects the perfume's full name, image URLs, attributes
 - I tryied to access both *nosetime* and *Fragrantica*, both of them are the biggest websites of fragrance in global and in China, thus, I can scratch enough data and fill in the blank values and other missing data. But Fragrantica has a Five Second Shield, and nosetime does not has enough data to be scratched at one time. Then I give up fragrantica and scratch data from the classification of nosetime multiple times.
 
 ## 3. Music Generation
-Technology Used: Introduce MusicGen and Audiocraft. Explain briefly what these tools are and how they work.
-From Text to Music: Detail how you used perfume descriptions to generate music. What was the process? How did the text influence the music's attributes?
+### Technology Used: 
+- MusicGen: It's a single-stage transformer language model for generating high-quality music. MusicGen operates on compressed discrete music tokens and can create music conditioned on textual descriptions or melodic features. Its efficiency lies in handling multiple parallel streams of acoustic tokens without needing multiple cascading models.
+
+- Audiocraft: This is likely the GitHub repository associated with MusicGen, hosted by Facebook Research. It probably contains the implementation code, models, and possibly datasets for MusicGen and related audio processing projects. Audiocraft serves as a platform for MusicGen's deployment and possibly other audio generation initiatives.
+
+### From Text to Music:
+#### Process of Generating Music from Perfume Descriptions:
+-Text Preprocessing: First, the perfume descriptions are preprocessed. This step includes cleaning the text, removing any irrelevant information, and possibly encoding it in a format suitable for the model (like tokenization).
+
+- Feature Extraction: Key attributes are extracted from the text descriptions. For perfumes, this might include adjectives describing scents (like 'floral', 'earthy'), emotions (like 'calming', 'invigorating'), or abstract concepts (like 'elegance', 'mystery').
+
+- Model Conditioning: These extracted features are then used to condition the music generation model. In the case of MusicGen, it can be conditioned on textual descriptions. The model takes these descriptions and interprets them to influence the musical output.
+
+- Music Generation: The model generates music based on the conditioned input. This involves using the language model's understanding of the text to create music that reflects the attributes of the perfume. For instance, a description involving words like 'light', 'floral', and 'airy' might result in music that is soft, melodic, and has a higher pitch.
+
+- Refinement and Output: The generated music is then reviewed and possibly refined. Refinement could involve manual adjustments or additional passes through the model for fine-tuning.
+
+#### Influence of Text on Music Attributes:
+- Mood and Emotion: Words in the perfume description that convey mood or emotion (like 'romantic', 'bold') would influence the emotional tone of the music.
+
+- Intensity and Pace: Descriptions that imply intensity (like 'strong', 'subtle') could affect the music's tempo and dynamics.
+
+- Instrumentation: Certain descriptive terms might suggest specific musical instruments or sounds (like 'crisp' might evoke the sound of a piano or a high hat).
+
+```python
+# Create a text input widget
+text_input = widgets.Textarea(
+    value='Enter perfume description here...',
+    placeholder='Type something',
+    description='Prompt:',
+    disabled=False
+)
+
 
 ## 4. Image Generation
 Visual Representation: Discuss how you translated music into visual imagery. What tools or algorithms did you use?

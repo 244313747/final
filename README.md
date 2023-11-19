@@ -206,7 +206,8 @@ To enhance user experience, I've experimented with modifying the layout of the w
 - ...
   
 ## 8. Multimedia Elements
-Images and Audio: Include images of the web interfaces, generated visuals, and embed audio clips where relevant.
-
-## 9. Technical Details (Optional)
-Code Snippets: You can include small code snippets to illustrate key points, especially if your audience is technically inclined.
+- [Full code](https://github.com/244313747/final/blob/06e0a69e050d9227b27b773e1630e92f559623f5/21033106%20(1).html)
+- [Music generated_modified version](https://github.com/244313747/final/blob/06e0a69e050d9227b27b773e1630e92f559623f5/data/Benetton2.mp3)
+- [Other music1](https://github.com/244313747/final/blob/12cb031b9f8e3eabfdab52316553dbb4dd99b564/data/Benetton_regenerated.wav)
+- [Other music2](https://github.com/244313747/final/blob/12cb031b9f8e3eabfdab52316553dbb4dd99b564/data/RedSatin.wav)
+- [Dataset](https://github.com/244313747/final/blob/06e0a69e050d9227b27b773e1630e92f559623f5/data/nosetime.xlsx)

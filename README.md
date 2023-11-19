@@ -2,10 +2,10 @@
 
 ## 1. Introduction
 ### Project Overview:
-That is a 'Text-to-Music-to-Image' project that captures perfume data, especially the description of each perfume, and uses the description as the prompts to generate sound and image. Designed to make the fragrance of a perfume palpable through sight and sound when buying perfume online.
+This project is a 'Text-to-Music-to-Image' endeavor that harnesses the descriptive data of perfumes. It particularly focuses on utilizing each perfume's description as a prompt to generate corresponding sound and imagery. The aim is to render the essence of a perfume's fragrance tangible through both sight and sound, enhancing the experience of purchasing perfumes online. This innovative approach seeks to bridge the sensory gap inherent in online shopping, offering a multi-sensory engagement with the product.
 
 ### Inspiration:
-Machine Learning assignment as the basic background. And fragrance always is my interest, while each time I wanna buy a perfume, the realistic scent of 'this' perfume always confuses me. The notes and the description can't feel the smell actually, so I decided to achieve the multi-sensory invocation using sight and sound to elicit olfactory resonance. Also, the development of DALL E 2 and Musicgen let me realize the realizability.
+With a foundation in Machine Learning, I embarked on this project fueled by a personal interest in fragrances. The challenge of purchasing perfumes online has always intrigued me, particularly the difficulty in truly understanding a perfume's scent through mere notes and descriptions. This gap in the sensory experience motivated me to explore a multi-sensory approach, leveraging sight and sound to evoke olfactory sensations. The advent of technologies like DALL-E 2 and MusicGen played a pivotal role in this endeavor, demonstrating the feasibility of translating textual descriptions into rich auditory and visual experiences. This project represents an intersection of my academic background and personal passion, aiming to enrich the online perfume shopping experience by simulating a more comprehensive sensory understanding.
 
 ## 2. Data Collection
 ### Collecting data：
@@ -213,15 +213,15 @@ To enhance user experience, I've experimented with modifying the layout of the w
 - [Dataset](https://github.com/244313747/final/blob/06e0a69e050d9227b27b773e1630e92f559623f5/data/nosetime.xlsx)
 
 ## 9. Reference
-'''Markdown
+```Markdown
 @article{copet2023simple,
     title={Simple and Controllable Music Generation},
     author={Jade Copet and Felix Kreuk and Itai Gat and Tal Remez and David Kant and Gabriel Synnaeve and Yossi Adi and Alexandre Défossez},
     year={2023},
     journal={arXiv preprint arXiv:2306.05284},
 }
-'''
-'''Markdown'''
+```
+```Markdown
 @misc{openai2023chatgpt,
     title={Assistance in Resolving code},
     author={{OpenAI ChatGPT}},
@@ -229,4 +229,4 @@ To enhance user experience, I've experimented with modifying the layout of the w
     howpublished={ChatGPT interaction},
     note={Accessed on: 2023}
 }
-'''
+```

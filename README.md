@@ -211,3 +211,22 @@ To enhance user experience, I've experimented with modifying the layout of the w
 - [Other music1](https://github.com/244313747/final/blob/12cb031b9f8e3eabfdab52316553dbb4dd99b564/data/Benetton_regenerated.wav)
 - [Other music2](https://github.com/244313747/final/blob/12cb031b9f8e3eabfdab52316553dbb4dd99b564/data/RedSatin.wav)
 - [Dataset](https://github.com/244313747/final/blob/06e0a69e050d9227b27b773e1630e92f559623f5/data/nosetime.xlsx)
+
+## 9. Reference
+'''Markdown
+@article{copet2023simple,
+    title={Simple and Controllable Music Generation},
+    author={Jade Copet and Felix Kreuk and Itai Gat and Tal Remez and David Kant and Gabriel Synnaeve and Yossi Adi and Alexandre Défossez},
+    year={2023},
+    journal={arXiv preprint arXiv:2306.05284},
+}
+'''
+'''Markdown'''
+@misc{openai2023chatgpt,
+    title={Assistance in Resolving code},
+    author={{OpenAI ChatGPT}},
+    year={2023},
+    howpublished={ChatGPT interaction},
+    note={Accessed on: 2023}
+}
+'''
